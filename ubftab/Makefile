@@ -1,4 +1,4 @@
-SOURCES=Exfields MuOnline.fd
+SOURCES=MuOnline.fd
 
 all: 
 	@echo "========================"	

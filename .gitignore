@@ -1,0 +1,6 @@
+dist/*
+settings.json
+*.ud
+*.o
+ubftab/include
+services/connectserver/connectserver_svc

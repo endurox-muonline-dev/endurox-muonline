@@ -1,0 +1,8 @@
+$#ifndef __MUONLINE_H
+$#define __MUONLINE_H
+
+*base 1000
+
+MU_MESSAGE_TYPE					1			short	M				Muonline Protocol message type (0 - GS, 1 - DataServer, 2 - JoinServer, ...)
+
+$#endif

@@ -8,8 +8,8 @@ endif
 
 all:
 	$(MAKE) -C ubftab OUTPUTDIR=$(MU_MODULE_ROOT)/ubftab/include
-#	$(MAKE) -C libmuonline BASE_DIR=`pwd`
-#	$(MAKE) -C libpgdrv BASE_DIR=`pwd`
+	$(MAKE) -C libmucore BASE_DIR=`pwd`
+	$(MAKE) -C libpgdrv BASE_DIR=`pwd`
 	$(MAKE) -C services BASE_DIR=`pwd`
 
 dist:
@@ -19,8 +19,8 @@ dist:
 
 clean:
 	$(MAKE) -C ubftab clean OUTPUTDIR=$(MU_MODULE_ROOT)/ubftab/include
-#	$(MAKE) -C libmuonline clean
-#	$(MAKE) -C libpgdrv clean
+	$(MAKE) -C libmucore clean
+	$(MAKE) -C libpgdrv clean
 	$(MAKE) -C services clean
 	@rm -fr ./dist
 

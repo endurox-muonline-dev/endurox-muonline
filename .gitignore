@@ -1,6 +1,13 @@
+c_cpp_properties.json
 dist/*
 settings.json
 *.ud
 *.o
 ubftab/include
-services/connectserver/connectserver_svc
+services/connectserver/connectserver
+services/dataserver/dataserver
+services/joinserver/joinserver
+services/mainserver/mainserver
+services/worldserver/worldserver
+libmucore.a
+libpgdrv.a
